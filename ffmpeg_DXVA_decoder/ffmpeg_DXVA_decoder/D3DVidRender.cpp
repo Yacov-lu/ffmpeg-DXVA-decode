@@ -4,18 +4,6 @@
 #pragma comment(lib, "d3d9.lib")
 #pragma comment(lib, "d3dx9.lib")
 
-// 使用stdio.h和strsafe.h，可实现类似TRACE的功能
-/*void LogTrace(LPCTSTR pszFormat, ...)  
-{  
-	va_list pArgs;  
-
-	char szMessageBuffer[16380]={0};  
-	va_start( pArgs, pszFormat );  
-	_vsntprintf( szMessageBuffer, 16380, pszFormat, pArgs );  
-	va_end( pArgs );  
-
-	OutputDebugString(szMessageBuffer);  
-}*/  
 
 CD3DVidRender::CD3DVidRender(void)
 {
@@ -120,16 +108,6 @@ BOOL CD3DVidRender::InitD3D_RGB32(HWND hwnd, int img_width, int img_height)
 	{
 		return FALSE;  
 	}
-
-	//// create the font
-	//ZeroMemory(&m_font_desc, sizeof(m_font_desc));
-
-	//// set font descripter
-	//strcpy(m_font_desc.FaceName, "楷体");
-	//m_font_desc.Height = 32;
-
-	//// Creates a font object indirectly for both a device and a font
-	//D3DXCreateFontIndirect(m_pDirect3DDevice, &m_font_desc, &m_pD3DXFont);
 
 	return TRUE;  
 }
