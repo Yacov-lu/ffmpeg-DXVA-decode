@@ -1,8 +1,0 @@
-﻿  ffmpeg_dxva2.cpp
-c:\users\administrator\desktop\ffmpeg_dxva_decoder\ffmpeg_dxva_decoder\ffmpeg_dxva2.cpp(147): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\administrator\desktop\ffmpeg_dxva_decoder\ffmpeg_dxva_decoder\ffmpeg_dxva2.cpp(215): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\administrator\desktop\ffmpeg_dxva_decoder\ffmpeg_dxva_decoder\ffmpeg_dxva2.cpp(237): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\administrator\desktop\ffmpeg_dxva_decoder\ffmpeg_dxva_decoder\ffmpeg_dxva2.cpp(288): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-c:\users\administrator\desktop\ffmpeg_dxva_decoder\ffmpeg_dxva_decoder\ffmpeg_dxva2.cpp(503): warning C4018: “<”: 有符号/无符号不匹配
-  ffmpeg_DXVA_decoder.vcxproj -> C:\Users\Administrator\Desktop\ffmpeg_DXVA_decoder\Debug\ffmpeg_DXVA_decoder.exe
-  ffmpeg_DXVA_decoder.vcxproj -> C:\Users\Administrator\Desktop\ffmpeg_DXVA_decoder\Debug\ffmpeg_DXVA_decoder.pdb (Full PDB)
